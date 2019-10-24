@@ -60,7 +60,7 @@ public class StringUtilities {
      * @return the middle character of `inputValue`
      */
     public static Character getMiddleCharacter(String inputValue){
-        return inputValue.charAt((inputValue.length() / 2) - 1);
+        return inputValue.charAt(inputValue.length() / 2);
     }
 
     /**
